@@ -1,6 +1,6 @@
 Name:		os-refresh-config
 Version:	0.0.8
-Release:	2%{?dist}
+Release:	3%{?dist}
 Summary:	Refresh system configuration
 
 License:	ASL 2.0
@@ -10,6 +10,7 @@ Source0:	http://tarballs.openstack.org/%{name}/%{name}-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	python-setuptools
 BuildRequires:	python2-devel
+BuildRequires:  python-pbr
 
 Requires:	python-setuptools
 
@@ -33,6 +34,9 @@ Tool to refresh openstack config changes to service.
 %{python_sitelib}/os_refresh_config*
 
 %changelog
+* Mon Feb 24 2014 Steven Dake <sdake@redhat.com> - 0.0.8-3
+- Add python-pbr as a BuildRequires
+
 * Thu Feb 20 2014 Steven Dake <sdake@redhat.com> - 0.0.8-2
 - Properly formatted changelog
 
