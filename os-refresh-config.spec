@@ -1,6 +1,6 @@
 Name:		os-refresh-config
 Version:	0.1.5
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	Refresh system configuration
 
 License:	ASL 2.0
@@ -35,6 +35,9 @@ Tool to refresh openstack config changes to service.
 %{python_sitelib}/os_refresh_config*
 
 %changelog
+* Sat Jun 07 2014 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.1.5-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_21_Mass_Rebuild
+
 * Fri May 9 2014 Ben Nemec <bnemec@redhat.com> - 0.1.5-1
 - Update to 0.1.5
 - Add dependency on new dib-utils package
