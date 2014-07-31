@@ -20,7 +20,7 @@ Tool to refresh openstack config changes to service.
 
 %prep
 
-%setup -q -n %{name}-%{version}
+%setup -q -n %{name}-%{upstream_version}
 
 %build
 %{__python} setup.py build
