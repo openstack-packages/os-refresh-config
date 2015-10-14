@@ -32,6 +32,9 @@ Tool to refresh openstack config changes to service.
 %install
 %{__python} setup.py install -O1 --skip-build --root %{buildroot}
 
+# remove tests
+rm -fr %{buildroot}%{python_sitelib}/os_refresh_config/tests
+
 %files
 %doc README.rst
 %doc LICENSE
