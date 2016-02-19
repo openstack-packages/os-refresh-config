@@ -1,6 +1,6 @@
 Name:		os-refresh-config
 Version:	XXX
-Release:	XXX{?dist}
+Release:	XXX
 Summary:	Refresh system configuration
 
 License:	ASL 2.0
