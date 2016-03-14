@@ -42,35 +42,3 @@ rm -fr %{buildroot}%{python_sitelib}/os_refresh_config/tests
 %{python_sitelib}/os_refresh_config*
 
 %changelog
-* Wed Oct 15 2014 James Slagle <jslagle@redhat.com> 0.1.8-1
-- Update to upstream 0.1.8
-
-* Fri Sep 12 2014 James Slagle <jslagle@redhat.com> 0.1.7-1
-- Update to upstream 0.1.7
-
-* Thu Sep 11 2014 James Slagle <jslagle@redhat.com> - 0.1.5-3
-- Switch to rdopkg
-
-* Sat Jun 07 2014 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.1.5-2
-- Rebuilt for https://fedoraproject.org/wiki/Fedora_21_Mass_Rebuild
-
-* Fri May 9 2014 Ben Nemec <bnemec@redhat.com> - 0.1.5-1
-- Update to 0.1.5
-- Add dependency on new dib-utils package
-
-* Mon Feb 24 2014 Steven Dake <sdake@redhat.com> - 0.0.8-3
-- Add python-pbr as a BuildRequires
-
-* Thu Feb 20 2014 Steven Dake <sdake@redhat.com> - 0.0.8-2
-- Properly formatted changelog
-
-* Wed Feb 19 2014 Steven Dake <sdake@redhat.com> - 0.0.8-1
-- Update to version 0.0..8
-- add python2-devel BuildRequires
-- quiet setup
-
-* Tue Oct 15 2013 Lucas Alvares Gomes <lgomes@redhat.com> - 0.0.2-1
-- Update to version 0.0.2
-
-* Fri Sep 6 2013 Lucas Alvares Gomes <lgomes@redhat.com> - 0.0.1-1
-- Initial version
